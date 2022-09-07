@@ -13,6 +13,7 @@ import base64
 from nltk import download
 
 download("wordnet")
+download("omw-1.4")
 from nltk.corpus import wordnet as wn
 
 # from nltk.corpus import words
