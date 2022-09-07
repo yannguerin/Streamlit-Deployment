@@ -10,7 +10,9 @@ from matplotlib import cm
 from collections import Counter
 import base64
 
-# import nltk
+from nltk import download
+
+download("wordnet")
 from nltk.corpus import wordnet as wn
 
 # from nltk.corpus import words
