@@ -151,7 +151,7 @@ search_word = st.text_input("Search Synsets for given word:", value="")
 synset_options = wn.synsets(str(search_word))
 string_synset_options = [str(syn.name()) for syn in synset_options]
 
-
+synset_to_add = None
 if len(string_synset_options) > 0:
     synset_to_add = st.selectbox(
         "Choose the Synset to add.", list(string_synset_options)
